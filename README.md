@@ -49,6 +49,16 @@ To perform the analysis, total volume of each share is calculated .Starting and 
 #### Advantages:
 1.	As output is written directly  to excel sheet so there is no memory cost/used to store values. Fast runtime is traded for memory.
 
+### Runtime for 2018 in Refactored code(one loop)
+
+![Chart3](https://github.com/ajinderbains/Green_Stocks_Analysis/blob/master/Resource/VBA_Challenge_2018%20(2).PNG)
+
+
+### Runtime for 2018 in old code (Nested loops)
+
+ ![chart2](https://github.com/ajinderbains/Green_Stocks_Analysis/blob/master/Resource/VBA_oldcode_2018time.png)
+ 
+
 #### Disadvantages:
 1.	With nested loops execution time is longer as compare to one loop only.
 2.	For new programmers it is difficult to understand nested loops.

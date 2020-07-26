@@ -9,6 +9,8 @@ Additional this report also analyzed the advantages and disadvantages of using n
 
 Excel sheet is used ,which has data for stocks for years  2017 and 2018.This excel sheet also include shares ,daily opening and closing prices along with daily Volume.
 To perform the analysis, total volume of each share is calculated .Starting and ending price is used for each share to calculate return for each share.
+
+
 -	In 2017 stock market was better than 
 
 ## Summary: 
@@ -25,7 +27,7 @@ To perform the analysis, total volume of each share is calculated .Starting and 
 #### Disadvantages:
 1.	Memory is used in storing  values for total daily volumes, starting and ending price .So execution time  is less though but there is memory cost.
 
-Old Code:
+### Old Code/Nested loop:
 #### Advantages:
 1.	As output is written directly  to excel sheet so there is no memory cost/used to store values. Fast runtime is traded for memory.
 

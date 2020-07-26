@@ -19,10 +19,36 @@ To perform the analysis, total volume of each share is calculated .Starting and 
 
 ![2018 stocks return](https://github.com/ajinderbains/Green_Stocks_Analysis/blob/master/Resource/Stocks2018.PNG)
 
--	In 2017 stock market was better than 
+### Analysis for Stock Market 
 
-## Summary: 
+-	In 2017 stock market returns were gained except TERP. But DQ,SEDG,ENPH,FSLR were the higest gainers.
 
+- In 2018 over all was not good year for stock market.Returns for DQ,SEDG,FSLR tumbled down.Only 2 tickers gaired well ENPH and RUN
+
+- From the trends for past two years ticker RUN and ENPH has gained returnes continuosly.
+ 
+### Analysis for Refactored code (one loop) in coparison of old code(Nested loop)
+
+ Two different coding approaches are taken to find the solution .
+ 
+ ##### Old code(Nested Loop)
+ First approach which is reffered as old code,nested loops were used to check each row of data for 12 times .
+ output is also written to excel sheet within these nested loops.Execition time is 1.84375 seconds.
+ 
+ ##### Refactored code(one Loop)
+ In this approach only one loop is used to read all rows of sheet.In this output arrays are used and values are stored.
+ Calculations are done before outputting data in excel sheet.using only one loop reduced the execution time considerably to 0.3828125 seconnds.
+ 
+ ### Runtime for 2017 in Refactored code(one loop)
+
+ ![chart1](https://github.com/ajinderbains/Green_Stocks_Analysis/blob/master/Resource/VBA_Challenge_2017.png)
+ 
+### Runtime for 2017 in old code (Nested loops)
+
+ ![chart2](https://github.com/ajinderbains/Green_Stocks_Analysis/blob/master/Resource/VBA_oldcode_2017time.png)
+  
+ 
+## Summary
 
 ### Refactored code:
  #### Advantage
@@ -30,13 +56,6 @@ To perform the analysis, total volume of each share is calculated .Starting and 
 
 2.	Values for total daily volumes ,starting and ending are calculated and  stored so they can be used for another analysis  like to find percentage each ticker/stock of total daily volumes in comparison to total volumes of stock market .
 
-### Runtime for 2017 in Refactored code(one loop)
-
- ![chart1](https://github.com/ajinderbains/Green_Stocks_Analysis/blob/master/Resource/VBA_Challenge_2017.png)
- 
-### Runtime for 2017 in old code (Nested loops)
-
- ![chart2](https://github.com/ajinderbains/Green_Stocks_Analysis/blob/master/Resource/VBA_oldcode_2017time.png)
  
 
 #### Disadvantages:

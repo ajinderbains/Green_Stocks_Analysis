@@ -27,7 +27,7 @@ To perform the analysis, total volume of each share is calculated .Starting and 
 
 - From the trends for past two years ticker RUN and ENPH has gained returnes continuosly.
  
-### Analysis for Refactored code (one loop) in coparison of old code(Nested loop)
+### Analysis for Refactored code (one loop) in comparison of old code(Nested loop)
 
  Two different coding approaches are taken to find the solution .
  

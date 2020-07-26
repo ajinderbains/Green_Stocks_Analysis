@@ -33,7 +33,7 @@ To perform the analysis, total volume of each share is calculated .Starting and 
 
 2.	Values for total daily volumes ,starting and ending are calculated and  stored so they can be used for another analysis  like to find percentage each ticker/stock of total daily volumes in comparison to total volumes of stock market .
 
- 
+ ![chart1](https://github.com/ajinderbains/Green_Stocks_Analysis/blob/master/Resource/VBA_Challenge_2017.png)
 
 #### Disadvantages:
 1.	Memory is used in storing  values for total daily volumes, starting and ending price .So execution time  is less though but there is memory cost.

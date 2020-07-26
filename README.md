@@ -10,6 +10,17 @@ Additional this report also analyzed the advantages and disadvantages of using n
 Excel sheet is used ,which has data for stocks for years  2017 and 2018.This excel sheet also include shares ,daily opening and closing prices along with daily Volume.
 To perform the analysis, total volume of each share is calculated .Starting and ending price is used for each share to calculate return for each share.
 
+## 2017 Stock Returns
+
+![2017 Stocks Return](https://github.com/ajinderbains/Green_Stocks_Analysis/blob/master/Resource/Stocks2017.PNG)
+
+## 2018 Stock Returns
+
+
+![2018 stocks return](https://github.com/ajinderbains/Green_Stocks_Analysis/blob/master/Resource/Stocks2018.PNG)
+
+
+
 
 -	In 2017 stock market was better than 
 
